@@ -223,10 +223,10 @@
 
 .renewal-card__title {
   margin: 0 0 18px;
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.5;
-  color: #6b6b6b;
+  color: #9a9a9a;
 }
 
 .renewal-card__list {
@@ -238,7 +238,7 @@
 .renewal-card__item {
   display: flex;
   align-items: center;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   font-size: 15px;
   font-weight: 400;
   line-height: normal;
@@ -323,7 +323,7 @@
 .apply-sticky__tip {
   font-size: 16px;
   font-weight: 600;
-  color: var(--color-text-secondary);
+  color: #b0b0b0;
 }
 
 .apply-sticky__btn {

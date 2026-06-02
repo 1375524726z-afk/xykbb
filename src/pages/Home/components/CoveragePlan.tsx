@@ -30,7 +30,7 @@ export default function CoveragePlan() {
         type="button"
         onClick={() => setExpanded((v) => !v)}
       >
-        {expanded ? '收起保障计划' : '展开更多保障计划'}
+        {expanded ? '收起保障计划' : '展开保障计划'}
         <i className={`coverage__arrow${expanded ? ' is-up' : ''}`} aria-hidden />
       </button>
     </section>

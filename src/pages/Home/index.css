@@ -284,19 +284,21 @@
   align-items: flex-start;
   justify-content: space-between;
   gap: 16px;
-  padding: 9px 0;
-  font-size: 13px;
+  padding: 6px 0;
+  font-size: 15px;
 }
 
 .coverage__name {
   flex: 1;
   color: #333;
-  line-height: 1.5;
+  font-size: 15px;
+  line-height: 1.3;
 }
 
 .coverage__value {
   flex: none;
   color: #666;
+  font-size: 15px;
   white-space: nowrap;
 }
 
@@ -309,11 +311,11 @@
   margin-top: 6px;
   padding: 14px 0 8px;
   border: none;
-  border-top: 1px solid #f2f2f2;
   background: transparent;
   color: var(--color-primary);
+  opacity: 0.75;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .coverage__arrow {
